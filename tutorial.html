@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            background-color:#feeafa;
+
+        }
+        .container {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            background-color: #feeafa;
+            grid-template-columns: ifr 1fr 1fr 1fr;
+            grid-template-rows: ifr 1fr 1fr 1fr;
+            margin: 0;
+            padding: 0;
+            grid-gap: 20px;
+        }
+        .item{
+            width: 300px;
+            height: 300px;
+            background :#b8c0ff;
+            border-radius: 20px;
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+            border: 5px solid;
+            border-color: black;
+        }
+        .item img{
+            width: 100%;
+            height: 70%;
+        }
+        .item p {
+            font-family: fantasy;
+            font-size: 20px;
+        }
+        .item a{
+           color: black;
+        }
+        .container .item:nth-child(1){
+            grid-column: 1/1;
+        grid-row: 1/1;
+        }
+        .container .item:nth-child(2){
+            grid-column: 2/2;
+            grid-row: 2/1;
+
+        }
+        .container .item:nth-child(3){
+            grid-column: 3/3;
+            grid-row: 3/1;
+        }
+        .container .item:nth-child(4){
+            grid-column: 4/4;
+            grid-row: 4/1;
+        }
+        .container .item:nth-child(5){
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .container .item:nth-child(6){
+            grid-column: 2/2;
+            grid-row: 2/2;
+        }
+        .container .item:nth-child(7){
+            grid-column: 3/3;
+            grid-row: 3/2;
+        }
+        .container .item:nth-child(8){
+            grid-column: 4/4;
+            grid-row: 4/2;
+        }
+        .footer{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+    </Style>
+</head>
+<body>
+    <div class="footer"> <h1>TUTORIAL HTML - CSS</h1></div>
+   
+    <section class="container">
+  
+        <div class="item"> 
+            <img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="index html">
+            <p>Index</p> 
+            <a href="/index.html">Index</a>
+        </div>
+        <div class="item">
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="index html">
+            <p>Cascada</p> 
+            <a href="/cascada.html">Cascada</a>
+        </div>
+        <div class="item">
+            <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="index html">
+            <p>Copalpso</p> 
+            <a href="/colapso-imagenes.html">Colapso</a>
+        </div>
+        <div class="item">
+            <img src="https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="index html">
+            <p>Display 1</p> 
+            <a href="/display_1.html">Display - 1</a>
+        </div>
+        <div class="item"> 
+            <img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="index html">
+            <p>Display 2</p> 
+            <a href="/display_2.html">Display - 2</a>
+        </div>
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/1134615803/es/foto/c%C3%B3digo-html-de-cerca.jpg?s=1024x1024&w=is&k=20&c=xU5hqUFXXLDgOpSwBIZffEDRawO_QwO-wi5ZZhJhdXc=" alt="index html">
+            <p>Especifidad</p> 
+            <a href="/especifidad.html">Especifidad</a>
+        </div>
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/1497439357/es/foto/c%C3%B3digo-fuente-del-sitio-web-html-en-la-pantalla.jpg?s=1024x1024&w=is&k=20&c=J8vx3Pt2FPdr7QsznsS3lNZidh1qC5XSqyCFj2Xy_9w=" alt="index html">
+            <p>Etiquetas</p> 
+            <a href="/etiquetas.html">Etiquetas</a>
+        </div>
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/479767612/es/foto/html-css-y-medios-de-comunicaci%C3%B3n-c%C3%B3digo-de-consulta.jpg?s=1024x1024&w=is&k=20&c=KEPPDiRwGUQTQ6n8yww3Vh5-zQi5FH8Aov4GhF7GlVw=" alt="index html">
+            <p>Model Box</p> 
+            <a href="/modelcaja.html">Model Box</a>
+        </div>
+    </section>
+</body>
+</html>
